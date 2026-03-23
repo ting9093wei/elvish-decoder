@@ -1,8 +1,8 @@
-# zhuyin-decoder
+# elvish-decoder
 
 忘記切換輸入法？沒關係，AI 照樣看得懂。
 
-`zhuyin-decoder` 是一個 Claude Code hook，自動偵測注音鍵盤誤打並轉換為注音符號，讓 AI 能正確理解你的意思。
+`elvish-decoder` 是一個 Claude Code hook，自動偵測注音鍵盤誤打（精靈文）並轉換為注音符號，讓 AI 能正確理解你的意思。
 
 ## 問題
 
@@ -28,8 +28,8 @@ AI 看到 `su3cl3a87` 完全無法理解。這個工具解決這個問題。
 ### 1. 編譯 binary
 
 ```bash
-git clone https://github.com/your-username/zhuyin-decoder.git
-cd zhuyin-decoder/go
+git clone https://github.com/ting9093wei/elvish-decoder.git
+cd elvish-decoder/go
 go build -o zhuyin-hook .
 ```
 
