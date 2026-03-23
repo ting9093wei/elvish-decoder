@@ -30,14 +30,14 @@ AI 看到 `su3cl3a87` 完全無法理解。這個工具解決這個問題。
 ```bash
 git clone https://github.com/ting9093wei/elvish-decoder.git
 cd elvish-decoder/go
-go build -o zhuyin-hook .
+go build -o elvish-hook .
 ```
 
 ### 2. 放到固定路徑
 
 ```bash
 # 放在你喜歡的位置，例如：
-cp zhuyin-hook ~/.local/bin/zhuyin-hook
+cp elvish-hook ~/.local/bin/elvish-hook
 # 或直接用專案內的路徑
 ```
 
@@ -53,7 +53,7 @@ cp zhuyin-hook ~/.local/bin/zhuyin-hook
         "hooks": [
           {
             "type": "command",
-            "command": "/path/to/zhuyin-hook",
+            "command": "/path/to/elvish-hook",
             "timeout": 5,
             "statusMessage": "偵測注音輸入..."
           }
@@ -64,7 +64,7 @@ cp zhuyin-hook ~/.local/bin/zhuyin-hook
 }
 ```
 
-把 `/path/to/zhuyin-hook` 換成你的實際路徑。
+把 `/path/to/elvish-hook` 換成你的實際路徑。
 
 ### 4. 重啟 Claude Code 或開啟 `/hooks` 讓設定生效
 
