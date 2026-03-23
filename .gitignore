@@ -1,0 +1,12 @@
+# Compiled binary
+zhuyin-hook
+go/zhuyin-hook
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
